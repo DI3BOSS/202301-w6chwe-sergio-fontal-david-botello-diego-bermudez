@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./components";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 import GlobalStyles from "./GlobalStyles";
 
 const container = document.getElementById("root")!;
@@ -17,4 +16,3 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
-reportWebVitals();

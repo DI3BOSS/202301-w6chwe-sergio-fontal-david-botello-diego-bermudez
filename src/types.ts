@@ -10,3 +10,7 @@ export interface RobotStructure {
 }
 
 export type RobotsStructure = RobotStructure[];
+
+export interface RobotsApiResponseStructure {
+  robots: RobotsStructure;
+}
